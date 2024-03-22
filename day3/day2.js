@@ -28,7 +28,6 @@ for (let i = 2; i <= 100; i++) {
 
 let arr = [1];
 for (let i = 1; i <= 100; i++) {
-  arr[i] = 0;
   for (let j = 1; i % j === 0; j++) {
     arr[i * j]++;
   }
