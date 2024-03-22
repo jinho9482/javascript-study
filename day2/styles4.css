@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration-line: none;
+}
+
+body {
+  padding: 30px;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+article,
+.newspaper1,
+.newspaper2,
+.index-container {
+  display: flex;
+  gap: 30px;
+}
+
+article {
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.contents {
+  align-self: center;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.newspaper1 {
+  margin-bottom: 20px;
+}
+
+.index-container {
+  justify-content: space-between;
+}
+
+.index-container div {
+  border-left: 3px solid rgba(255, 0, 0, 0.534);
+}
+
+.index {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.rate {
+  background-color: rgba(226, 161, 159, 0.599);
+  color: red;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.index-container p {
+  margin-bottom: 10px;
+}
+
+.article {
+  margin-top: 20px;
+}
+
+.contents p {
+  margin-bottom: 10px;
+}
+
+.article p {
+  margin: 10px 0;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+.price {
+  font-size: 1.5rem;
+}

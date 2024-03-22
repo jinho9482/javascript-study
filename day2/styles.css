@@ -1,0 +1,33 @@
+* {
+  color: white;
+}
+
+div {
+  /* height: 100px; */
+  width: 100px;
+  background-color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+#box {
+  width: 200px;
+  min-height: 100px;
+}
+
+.box {
+  width: 100rem; /* rem: root(system)의 한 글자의 크기 -> 기본 세팅, em: 내가 설정한 해당 element의 font size를 기준으로 */
+  min-height: 10vh; /* vh : 내가 보는 화면 크기, viewport height */
+}
+
+.box img {
+  width: 100rem;
+  min-height: 10vh;
+}
+
+.box .img img {
+  width: 100rem;
+  min-height: 10vh;
+}

@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+table {
+  text-align: center;
+  margin: auto;
+}
+
+.rank {
+  border: 1px solid black;
+}
+
+.rank:hover {
+  transition: all 1s ease;
+  transform: matrix();
+}
+
+td {
+  border: 1px inset;
+  border-spacing: 0;
+}
+
+.rank th {
+  color: white;
+  background-image: linear-gradient(to top, purple, white);
+}
+
+a {
+  text-decoration: none;
+}
+
+.blue {
+  background-color: rgb(125, 255, 255);
+}
+
+.green {
+  background-color: rgb(76, 224, 76);
+}
+
+.rank tfoot {
+  background-color: rgb(156, 144, 144);
+  color: white;
+}
+
+.bluetext {
+  color: rgb(37, 37, 205);
+}
+
+.greentext {
+  color: rgb(9, 255, 0);
+}
+
+.yellowtext {
+  color: rgb(255, 242, 0);
+}
+
+.rank td:nth-child(3) {
+  color: rgb(0, 170, 255);
+}
+
+/* table a {
+  text-decoration: none;
+} */

@@ -1,0 +1,16 @@
+h1:hover {
+  color: chocolate;
+  transition: all 1s ease;
+  /* transform: rotate(1800deg); */
+  transform: translate(100px, 100px);
+}
+
+.hidden {
+  transform: (-10%, 20%);
+  font-size: 2rem;
+}
+
+.hidden:hover {
+  transition: all 3s ease;
+  transform: translate(0, 1000%);
+}
