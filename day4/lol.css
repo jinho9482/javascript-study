@@ -1,0 +1,16 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+th {
+  background-color: skyblue;
+}
+
+th,
+td {
+  padding: 10px;
+}
